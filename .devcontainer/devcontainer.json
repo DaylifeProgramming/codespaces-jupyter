@@ -1,5 +1,22 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+  },
+  "forwardPorts": [5901],
+  "portsAttributes": {
+    "5901": {
+      "label": "VNC Desktop"
+    }
+  },"features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+  },
+  "forwardPorts": [5901],
+  "portsAttributes": {
+    "5901": {
+      "label": "VNC Desktop"
+    }
+  },
   "hostRequirements": {
     "cpus": 4
   },
